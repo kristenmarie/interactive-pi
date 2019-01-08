@@ -1,7 +1,5 @@
-$font-stack: Helvetica, sans-serif;
-$primary-font-color: blue;
+@import 'abstracts/variables';
 
-body {
-  font: 100% $font-stack;
-  color: $primary-font-color;
-}
+@import 'reset/reset';
+@import 'reset/typography';
+

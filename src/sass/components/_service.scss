@@ -16,15 +16,15 @@
   p, ul {
     background: $offWhite;
     padding: 10px;
+
     border-radius: 2px;
     border-bottom: $border;
     border-right: $border;
   }
-
   @include tablet-landscape-up {
     span {
       display: inline-block !important;
+      font-size: 100px;
     }
   }
 }
-

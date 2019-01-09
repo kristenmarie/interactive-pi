@@ -103,7 +103,7 @@ header {
     //1fr spaces are for side margins
     //auto is for the logo
     //minmax for nav lnks
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    grid-template-columns: 10vw auto minmax(600px, 3fr) 10vw;
 
     .nav-toggle-label {
       display: none;
@@ -143,8 +143,11 @@ header {
         justify-content: flex-end;        
       }
       li {
-        margin-right: 3em;
         margin-bottom: 0;
+        margin-right: 0;
+      }
+      li:not(:nth-child(4)) {
+        margin-right: 3em;
       }
     }
   }

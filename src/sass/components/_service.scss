@@ -20,5 +20,11 @@
     border-bottom: $border;
     border-right: $border;
   }
+
+  @include tablet-landscape-up {
+    span {
+      display: inline-block !important;
+    }
+  }
 }
 

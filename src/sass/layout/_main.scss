@@ -5,6 +5,10 @@ main {
   section:not(:nth-child(1)), .associations {
     margin-top: 50px;
   }
+  @include tablet-landscape-up {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 }
 
 h1 {

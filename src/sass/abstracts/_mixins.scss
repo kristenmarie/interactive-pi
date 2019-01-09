@@ -3,3 +3,9 @@
     margin-bottom: 1vh;
   }
 }
+
+@mixin tablet-landscape-up {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}

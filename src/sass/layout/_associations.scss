@@ -1,0 +1,12 @@
+.associations {
+  width: 100%;
+  border-top: $border;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  img {
+    padding-top: 10px;
+    width: 20%;
+    height: 20%;
+  }
+}

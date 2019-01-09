@@ -4,5 +4,11 @@
   }
   p {
     display: none;
+    @include desktop-up {
+      color: $siteYellow;
+      display: block;
+      margin-left: 20px;
+      align-self: center;
+    }
   }
 }

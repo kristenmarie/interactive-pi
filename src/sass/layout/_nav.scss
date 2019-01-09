@@ -104,12 +104,17 @@ header {
     //auto is for the logo
     //minmax for nav lnks
     grid-template-columns: 10vw auto minmax(600px, 3fr) 10vw;
-
+    @include desktop-up {
+      grid-template-columns: auto 600px 400px auto;
+    }
     .nav-toggle-label {
       display: none;
     }
     .logo {
       grid-column: 2 / span 1;
+      @include desktop-up {
+        display: flex;
+      }
     }
     nav {
       //Takes off all styles that were set in mobile version.

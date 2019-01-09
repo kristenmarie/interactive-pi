@@ -1,6 +1,8 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
+//$fa-font-path: "~fontawesome/fonts";
+//@import '~fontawesome-free/scss/icons';
 @import 'reset/reset';
 @import 'reset/typography';
 
@@ -13,3 +15,4 @@
 @import 'layout/main';
 @import 'layout/footer';
 @import 'layout/services';
+@import 'layout/contact';

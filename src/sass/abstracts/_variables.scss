@@ -7,3 +7,6 @@ $siteYellow: #ead900;
 $siteYellowLighter: #FFF02F;
 $siteBlue: #0F0A65;
 $offWhite: rgba(0, 0, 0, .05);
+
+//Utilities
+$border: 1px solid darken($offWhite, 10%);

@@ -1,0 +1,19 @@
+.service:not(:first-of-type){
+  margin-top: 40px;
+}
+
+.service:first-of-type {
+  margin-top: 20px;
+}
+
+.service {
+  h2 {
+    padding-left: 10px;
+  }
+  p, ul {
+    background: $offWhite;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 1px solid darken($offWhite, 10%);
+  }
+}

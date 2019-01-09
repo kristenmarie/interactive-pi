@@ -2,9 +2,17 @@ main {
   margin-top: 100px;
   margin-left: 3vw;
   margin-right: 3vw;
+  section:not(:nth-child(1)), .associations {
+    margin-top: 50px;
+  }
 }
 
 h1 {
   color: $siteBlue;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+h2 {
   font-weight: bold;
 }

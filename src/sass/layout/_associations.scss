@@ -4,9 +4,10 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: space-between;
   img {
     padding-top: 10px;
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
   }
 }

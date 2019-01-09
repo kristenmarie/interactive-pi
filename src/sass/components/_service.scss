@@ -7,6 +7,9 @@
 }
 
 .service {
+  span {
+    display: none !important;
+  }
   h2 {
     padding-left: 10px;
   }
@@ -18,3 +21,4 @@
     border-right: $border;
   }
 }
+

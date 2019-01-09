@@ -1,3 +1,19 @@
 footer {
   grid-row: 4;
+  background-color: $siteBlue;
+  color: $siteYellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: $siteYellow;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 50%;
+  }
+  p {
+    margin-bottom: 20px;
+  }
 }

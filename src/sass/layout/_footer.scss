@@ -9,11 +9,16 @@ footer {
     color: $siteYellow;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 1.25em;
   }
   img {
-    width: 50%;
+    width: 25%;
+    max-width: 350px;
   }
   p {
+    font-size: .8em;    
+  }
+  p:last-child {
     margin-bottom: 20px;
   }
 }

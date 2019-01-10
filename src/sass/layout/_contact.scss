@@ -18,4 +18,8 @@
       color: $siteYellowLighter;
     }
   }
+
+  @include desktop-up {
+    grid-row: 3;
+  }
 }

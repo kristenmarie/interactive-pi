@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');  
 
 module.exports = {
   entry: "./src/index.js",
@@ -62,7 +63,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/index.html',
-      filename: 'index.html'
-    })
+      filename: 'index.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      }
+    }),
+
+    new UglifyJsPlugin(),
   ]
 };

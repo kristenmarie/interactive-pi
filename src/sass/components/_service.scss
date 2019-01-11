@@ -9,9 +9,11 @@
 .service {
   span {
     display: none !important;
+    color: $siteBlue;
   }
   h2 {
     padding-left: 10px;
+    color: $siteBlue;
   }
   p, ul {
     background: $offWhite;

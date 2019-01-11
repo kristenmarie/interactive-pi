@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 body {
   h1, h2 {
-    font-family: $raleway;
+    font-family: $play;
   }
   p, a, li, {
     font-family: $roboto;
   } 
+  header {
+    p, a {
+      font-family: $play;
+    }
+    p {
+      font-size: .75rem;
+    }
+  }
 }
 
 h1 {

@@ -23,7 +23,7 @@
     border-bottom: $border;
     border-right: $border;
   }
-  @include tablet-landscape-up {
+  @include tablet-portrait-up {
     span {
       display: inline-block !important;
       font-size: 100px;

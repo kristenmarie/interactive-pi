@@ -2,7 +2,7 @@
   @extend %main-section-shared;
   
   .service:nth-child(even) {
-    @include tablet-landscape-up {
+    @include tablet-portrait-up {
       display: grid;
       grid-template-columns: 100px auto;
       grid-template-rows: auto;
@@ -19,7 +19,7 @@
     @include service-columns;
   }
   .service:nth-child(odd) {
-    @include tablet-landscape-up {
+    @include tablet-portrait-up {
       display: grid;
       grid-template-columns: auto 100px;
       grid-template-rows: auto;
@@ -37,7 +37,7 @@
     @include service-columns;
   }
   @include desktop-up {
-    grid-row: 2;
+    grid-row: 3;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 2vh;

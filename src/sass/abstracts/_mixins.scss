@@ -4,8 +4,14 @@
   }
 }
 
-@mixin tablet-landscape-up {
+@mixin tablet-portrait-up {
   @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape-up {
+  @media screen and (min-width: 900px) {
     @content;
   }
 }

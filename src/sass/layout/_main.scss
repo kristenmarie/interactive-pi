@@ -2,6 +2,7 @@ main {
   margin-top: 100px;
   margin-left: 3vw;
   margin-right: 3vw;
+  display: grid;
   section:not(:nth-child(1)), .associations {
     margin-top: 2vh;
   }

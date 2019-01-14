@@ -8,10 +8,10 @@
   img {
     padding-top: 10px;
     width: 15%;
-    height: 15%;
+    min-height: 40px;
   }
 
   @include desktop-up {
-    grid-row: 4;
+    grid-row: 5;
   }
 }

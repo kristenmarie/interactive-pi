@@ -1,4 +1,5 @@
 import '../src/sass/styles.scss';
+import '../src/assets/images/fav-icon.png';
 import '@fortawesome/fontawesome-free/js/all';
 import $ from 'jquery';
 

@@ -65,6 +65,7 @@ module.exports = {
       inject: 'body',
       template: './src/index.html',
       filename: 'index.html',
+      favicon: './src/assets/images/fav-icon.png',
       minify: {
         removeComments: true,
         collapseWhitespace: true

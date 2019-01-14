@@ -13,9 +13,11 @@
     a {
       font-size: 75px;
       color: $siteBlue;
+      transition: 0.3s ease-in-out;
     }
     a:hover {
       color: $siteYellow;
+      transform: scale(1.5);
     }
   }
 

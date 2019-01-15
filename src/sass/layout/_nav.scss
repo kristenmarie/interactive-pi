@@ -128,20 +128,20 @@ header {
         opacity: 1;
         position: relative;
       }
-      a::before {
+      a::after {
         content: '';
         display: block;
         height: 5px;
         background: $siteYellowLighter;
         position: absolute;
-        top: -.75em;
+        top: 1.25em;
         left: 0;
         right: 0;
         transform: scale(0, 1);
         transform-origin: center;
         transition: transform ease-in-out 250ms;
       }
-      a:hover::before {
+      a:hover::after {
         transform: scale(1,1);
       }
       ul {
